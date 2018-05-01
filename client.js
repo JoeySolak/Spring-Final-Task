@@ -14,11 +14,11 @@ function totals(list){
     let totalValue = 0;
     let totalTime = 0;
 
-    for(){
+    for(a=0; a<list.length; a++){
 
     }
 
-    return {
+    return {totalValue, totalTime
 
     }
 }
@@ -26,6 +26,12 @@ function totals(list){
 //works the the same as above, but stops short at the kth number in the list
 function partialTotals(list,k){
 
+    let totalValue = 0;
+    let totalTime = 0;
+
+    for(a=0; ){
+
+    }
 
 
 }
