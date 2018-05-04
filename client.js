@@ -47,7 +47,7 @@ function sortTime(list){
 
     //provide the criteria to sort the tasks.  They are objects remember.
     return list.sort(function(a,b){
-        a.time - b.time;
+    return    a.time - b.time;
     });
 
 }
@@ -55,11 +55,11 @@ function sortTime(list){
 //returns a sorted version of the task list from least to greatest according to its value variable
 function sortValue(list){
 
-    return list.sort(function(a, b{
-        a.value - b.value;
-    });
-
+    return list.sort(function(a, b)){
+    return    a.value - b.value;
+    };
 }
+
 
 //returns a sorted version of the task list from least to greatest according to its impact
 function sortImpact(list){
@@ -71,7 +71,7 @@ function sortImpact(list){
 
     //finishes the sort
     return list.sort(function(a, b){
-        impact(a) - impact(b);
+    return    impact(a) - impact(b);
     )};
 
 }
